@@ -11,8 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "eslint": "^7.17.0",
-    "prettier": "^2.2.1",
     "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0"
   }
 }

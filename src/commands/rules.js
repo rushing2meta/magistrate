@@ -5,8 +5,7 @@ module.exports = {
 		const Discord = require('discord.js');
 		const embed = new Discord.MessageEmbed()
 			.setColor('#00fff0')
-			.setTitle('Server Guidelines')
-			.setDescription(`1. Spam:
+			.setTitle('Server Guidelines').setDescription(`1. Spam:
       A. Sending a message with over 15 linebreaks (Large walls of text) that contributes nothing to chat.
       B. Rapidly sending 5 or more messages that contribute nothing to chat.
       C. Mass pinging users with messages or commands.
