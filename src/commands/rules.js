@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'rules',
 	description: 'Displays server rules.',
-	execute(message) {
+	execute(message, args) {
 		const Discord = require('discord.js');
 		const embed = new Discord.MessageEmbed()
 			.setColor('#00fff0')

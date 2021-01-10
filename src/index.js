@@ -5,7 +5,8 @@ const path = require('path');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
-const commandFiles = fs.readdirSync(path.resolve(__dirname, './commands')).filter(file => file.endsWith('.js'));
+const commandFiles = fs.readdirSync(path.resolve(__dirname, './commands'))
+	.filter(file => file.endsWith('.js'));
 
 const {
 	prefix,
